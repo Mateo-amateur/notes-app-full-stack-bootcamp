@@ -24,7 +24,7 @@ export default function LoginForm ({handleSubmit, ...props}) {
             onChange={props.handlePasswordChange}
           />
         </div>
-        <button id='form-login-button'>
+        <button>
           Login
         </button>
       </form>

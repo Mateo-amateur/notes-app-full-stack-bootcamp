@@ -14,7 +14,7 @@ export default function NoteForm ({addNote, handleLogout}) {
 
     const noteObject = {
       content: newNote,
-      important: false
+      important: Math.random() > 0.5
     }
 
     addNote(noteObject)
